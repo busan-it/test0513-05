@@ -1,3 +1,4 @@
+import logo from './assets/logo.png'
 import kakao from './assets/kakao.svg'
 import naver from './assets/naver.svg'
 import google from './assets/google.svg'
@@ -10,7 +11,7 @@ function App() {
 
       <div className='wrap'>
 
-        <h1><img src="/logo.png" alt="부산IT교육센터" /></h1>
+        <h1><img src={logo} alt="부산IT교육센터" /></h1>
 
         <form>
           <fieldset>
